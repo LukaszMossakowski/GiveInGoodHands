@@ -16,6 +16,8 @@ The app was created as my one of many individual projects prepared as part of Po
 
 The 'Give in good hands' application allows:
 
+- register for new user using email as username (by customizing user model), app verifies whether email is unique, new user is not active, after registration new user gets email message with unique link to activate user account - [screen](./img_readme/10_registration_email_with_activation_link.png)
+- 
 - AJAX, jQuery and JsonRequest in practice submit action via JavaScript to Django
 - contact form with emailing to users with admin status (SMTP method)
 - custom user model and login by email not my username
