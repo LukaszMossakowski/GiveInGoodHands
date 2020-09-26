@@ -16,7 +16,7 @@ The app was created as my one of many individual projects prepared as part of Po
 
 The 'Give in good hands' application allows:
 
-- register for new user using email as username (by customizing user model), app verifies whether email is unique, new user is not active, after registration new user gets email message with unique link to activate user account - [screen](./img_readme/10_registration_email_with_activation_link.png)
+- register for new user using email as username (by customizing user model), app verifies whether email is unique, new user is not active, after registration new user gets email message with unique link to activate user account (SMTP method via gmail) - [link](./img_readme/10_registration_email_with_activation_link.png)
 - 
 - AJAX, jQuery and JsonRequest in practice submit action via JavaScript to Django
 - contact form with emailing to users with admin status (SMTP method)
@@ -39,7 +39,7 @@ and many others
 * postgres
 * IDE (PyCharm)
 
-The application bases on the database created in the postgres. The app was created in Django and JS with many different technics applied: AJAX, jQuery and JsonRequest in practice submit action via JavaScript to Django, contact form with emailing to users with admin status (SMTP method), custom user model and login by email not my username, activation user profile via personal unique link send by email to a new user (SMTP method), custom delete method preventing deletion of the last admin, set of functionalities as 'forgot your password', 'set new password' and following, aggregate and annotate methods in practice, creating forms, models and views (generic and straight classic views and generic forms with applied widgets), custom password unique validation methods.
+The application bases on the database created in the postgres. The app was created in Django and JS with many different technics applied: [AJAX, jQuery and JsonRequest](./img_readme/11_AJAX_JS_submit_action.png) in practice [submit action via JavaScript to Django](./img_readme/14_summary_Js_form.png), [contact form with emailing to users with admin status (SMTP method)](./img_readme/4_contact_form.png), [custom user model](./img_readme/5_register_form.png) and [login by email not my username](./img_readme/6_login_form.png), activation user profile via personal [unique link send by email to a new user (SMTP method)](./img_readme/10_registration_email_with_activation_link.png), custom delete method preventing deletion of the last admin, set of functionalities as 'forgot your password', ['set new password'](./img_readme/8_password_reset_form.png) and following, [aggregate and annotate methods in practice](./img_readme/2_aggregate_annotate.png), creating forms, models and views (generic and straight classic views and generic forms with applied widgets), custom password unique validation methods.
 
 ## Screenshots
 
