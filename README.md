@@ -49,16 +49,21 @@ The application bases on the database created in the postgres. The app was creat
 
 ## Screenshots
 
-![sikorka](./img_readme/1_landing_page.png)
-![admin_manage_term_view_screenshot](./img_readme/2_aggregate_annotate.png)
-![admin_manage_term_view_screenshot]
-![admin_delete_term_view_screenshot]
-![user_main_view_screenshot]
-![user_doctor_view_screenshot]
-![user_specialisation_view_screenshot]
-![user_make_appointment_view_screenshot]
-![user_my_appointments_view_screenshot]
-
+![1_landing_page](./img_readme/1_landing_page.png)
+![2_aggregate_annotate](./img_readme/2_aggregate_annotate.png)
+![3_pagination](./img_readme/3_pagination.png)
+![4_contact_form](./img_readme/4_contact_form.png)
+![5_register_form](./img_readme/5_register_form.png)
+![6_login_form](./img_readme/6_login_form.png)
+![7_admin_panel_link](./img_readme/7_admin_panel_link.png)
+![8_password_reset_form](./img_readme/8_password_reset_form.png)
+![9_custom_password_validation](./img_readme/9_custom_password_validation.png)
+![10_registration_email_with_activation_link](./img_readme/10_registration_email_with_activation_link.png)
+![11_AJAX_JS_submit_action](./img_readme/11_AJAX_JS_submit_action.png)
+![12_multisteps_JS_form](./img_readme/12_multisteps_JS_form.png)
+![13_multisteps_JS_form_inputs](./img_readme/13_multisteps_JS_form_inputs.png)
+![14_summary_Js_form](./img_readme/14_summary_Js_form.png)
+![15_confirmation_view](./img_readme/15_confirmation_view.png)
 
 ## Status
 
