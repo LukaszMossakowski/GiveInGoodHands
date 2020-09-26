@@ -14,9 +14,9 @@ class CharacterValidator:
             if sign.isdigit():
                 c = 1
         if a == 0 or b == 0 or c == 0:
-            raise forms.ValidationError('Hasło powinno zawierać co najmniej jedną wielką literę, jedną małą literę,'
-                                        ' co najmniej jedną cyfrę oraz co najmniej jeden znak specjalny.')
+            raise forms.ValidationError('Password should contain at least one uppercase letter, one lowercase letter,'
+                                        ' at least one number and at least one special character.')
 
     def get_help_text(self):
-        return 'Hasło powinno zawierać co najmniej jedną wielką literę, jedną małą literę,' \
-               ' co najmniej jedną cyfrę oraz co najmniej jeden znak specjalny.'
+        return 'Password should contain at least one uppercase letter, one lowercase letter,' \
+               ' at least one number and at least one special character.'

@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 import os
 from pathlib import Path
 
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -128,8 +129,9 @@ STATIC_URL = '/.static/'
 AUTH_USER_MODEL = 'give_in_good_hands.MyUser'
 
 # email settings
-EMAIL_HOST = 'smtp.gmail.com'  # a co jeżeli miałoby być localhost
-EMAIL_PORT = 587  # czy domyślnie powinno być 1025 czy 25?
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
 EMAIL_HOST_USER = 'mossakowskilukasz@gmail.com'
 EMAIL_HOST_PASSWORD = 'Mossie2122'
 EMAIL_USE_TLS = True

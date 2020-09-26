@@ -41,33 +41,6 @@ class LandingPageView(View):
 
 @login_required
 def add_donation_view(request):
-    # if request.is_ajax():
-    #     if form.is_valid:
-    # try:
-    #     quantity = request.POST.get("bags")
-    #     categories_id = request.POST.getlis("categories")
-    #     institution_id = request.POST.get("organization")
-    #     address = request.POST.get("address")
-    #     phone = request.POST.get("phone")
-    #     city = request.POST.get("city")
-    #     zip_code = request.POST.get("postcode")
-    #     pick_up_date = request.POST.get("date")
-    #     pick_up_time = request.POST.get("time")
-    #     pick_up_comment = request.POST.get("more_info")
-    #     donation = Donation.objects.create(quantity=quantity, address=address, phone_number=phone, city=city,
-    #                                        zip_code=zip_code, pick_up_date=pick_up_date, pick_up_time=pick_up_time,
-    #                                        pick_up_comment=pick_up_comment, user=request.user)
-    #     donation.categories.set(categories_id)
-    #     donation.institution.set(institution_id)
-    #     return JsonResponse({})
-    # except:
-    #     if request.method == "GET":
-    #         categories = Category.objects.all()
-    #         institutions = Institutions.objects.all()
-    #         return render(request, "form.html", {"categories": categories, "institutions": institutions})
-    # return HttpResponse("failed")
-
-
     if request.method == "GET":
         categories = Category.objects.all()
         institutions = Institutions.objects.all()
@@ -91,8 +64,6 @@ def add_donation_view(request):
                                                zip_code=zip_code, pick_up_date=pick_up_date, pick_up_time=pick_up_time,
                                                pick_up_comment=pick_up_comment, institution=institution,user=user)
             donation.categories.set(categories_id)
-            # donation.institution.set(institution_id)
-            # donation.user.set()
             return JsonResponse({})
 
 

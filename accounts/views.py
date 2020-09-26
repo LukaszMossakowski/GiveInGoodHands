@@ -53,8 +53,8 @@ class RegisterView(View):
             link = reverse('activate', kwargs={'uidb64': uidb64, 'token': token_generator.make_token(new_user)})
             activate_url = 'http://' + domain + link
 
-            email_subject = f"email rejestracyjny z witryny: Give in good hands: {new_user.first_name} {new_user.last_name}"
-            email_body = f"Witaj {new_user.first_name} kliknij w poniższy link aby aktywować Twoje konto:\n" \
+            email_subject = f"registration email from the site: Give in good hands: {new_user.first_name} {new_user.last_name}"
+            email_body = f"Witaj {new_user.first_name} click on the link below to activate your account:\n" \
                          + activate_url
             email = EmailMessage(
                 email_subject,

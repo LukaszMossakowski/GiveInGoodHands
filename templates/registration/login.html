@@ -4,16 +4,16 @@
 <header>
       <nav class="container container--70">
         <ul class="nav--actions">
-          <li><a href="#">Zaloguj</a></li>
-          <li class="highlighted"><a href="{% url "register" %}">Załóż konto</a></li>
+          <li><a href="#">Login</a></li>
+          <li class="highlighted"><a href="{% url "register" %}">Register</a></li>
         </ul>
 
         <ul>
           <li><a href="{% url "landing_page" %}">Start</a></li>
-          <li><a href="{% url "landing_page" %}#steps">O co chodzi?</a></li>
-          <li><a href="{% url "landing_page" %}#about-us">O nas</a></li>
-          <li><a href="{% url "landing_page" %}#help">Fundacje i organizacje</a></li>
-          <li><a href="{% url "landing_page" %}#contact">Kontakt</a></li>
+          <li><a href="{% url "landing_page" %}#steps">What's on?</a></li>
+          <li><a href="{% url "landing_page" %}#about-us">About us</a></li>
+          <li><a href="{% url "landing_page" %}#help">Needy</a></li>
+          <li><a href="{% url "landing_page" %}#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -21,25 +21,18 @@
 
 {% block sikorka %}
     <section class="login-page">
-      <h2>Zaloguj się</h2>
+      <h2>Login</h2>
       <form method="POST">
 {% csrf_token %}
-{#        <div class="form-group">#}
-{#          <input type="email" name="email" placeholder="Email" />#}
-{#        </div>#}
-{#        <div class="form-group">#}
-{#          <input type="password" name="password" placeholder="Hasło" />#}
-{#        </div>#}
-
                 <div class="form-group">
 {{ form.as_p }}
                 </div>
 
-<a href="{% url 'password_reset' %}" class="btn btn--small btn--without-border reset-password">Zapomniałem hasło</a>
+<a href="{% url 'password_reset' %}" class="btn btn--small btn--without-border reset-password">Forgot password</a>
         <div class="form-group form-group--buttons">
 
-          <a href="{% url "register" %}" class="btn btn--without-border">Załóż konto</a>
-          <button class="btn" type="submit">Zaloguj się</button> 
+          <a href="{% url "register" %}" class="btn btn--without-border">Register</a>
+          <button class="btn" type="submit">Login</button>
         </div>
       </form>
     </section>
