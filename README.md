@@ -50,7 +50,7 @@ The application bases on the database created in the postgres. The app was creat
 ## Screenshots
 
 ![1_landing_page](./img_readme/1_landing_page.png)
-![admin_manage_doctor_view_screenshot]
+![admin_manage_doctor_view_screenshot](./img_readme/2_aggregate_annotate.png)
 ![admin_manage_term_view_screenshot]
 ![admin_delete_term_view_screenshot]
 ![user_main_view_screenshot]
