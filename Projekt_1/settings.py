@@ -80,7 +80,7 @@ DATABASES = {
         'NAME': 'charity-donation',
         'HOST': 'localhost',
         'USER': 'postgres',
-        'PASSWORD': 'coderslab'
+        'PASSWORD': '*********'
     }
 }
 
@@ -133,6 +133,6 @@ AUTH_USER_MODEL = 'give_in_good_hands.MyUser'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_HOST_USER = 'mossakowskilukasz@gmail.com'
-EMAIL_HOST_PASSWORD = 'Mossie2122'
+EMAIL_HOST_PASSWORD = '*********'
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
