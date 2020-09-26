@@ -1,6 +1,6 @@
-# Medicine Registration - register app
+# Give in good hands - donation app
 
-### Python web application prepared to maintain database with functionalities for medical center
+### Python web application prepared to maintain database with functionalities typical for logistic website
 
 ## Table of contents
 
@@ -11,9 +11,7 @@
 
 ## General info
 
-The app was created as final project after 3 months Python Developer course in Coders Lab IT school. The main aim was to sum up skills in Django and many others.
-
-Medicine Registration is the web application with functionalities typical for medical center (medical registration) and every similar business.
+The app was created as my second individual project prepared as part of Portfolio Lab at Coders Lab after 3 months Python Developer course in Coders Lab IT school. The main aim was to sum up and develope skills in Django, JavaScript and many others.
 
 The Medicine Registration application allows:
 
@@ -42,14 +40,12 @@ The Medicine Registration application allows:
 * Bootstrap 4
 * Python 3.8.3
 * Django
-* pytest-django, psycopq2-binary, pytz
+* JavaScript (AJAX, jQuery, JSON)
+* pytest-django, psycopq2-binary, pytz, six, envfile
 * postgres
 * IDE (PyCharm)
 
-The application bases on the database created in the postgres. The app was created in Django with many different technics applied creating forms, models and views (generic 
-and straight classic views and generic forms with applied widgets and validations). The app includes tests exercising created fixtures. 
-The app is based on the modified Bootstrap's template.
-
+The application bases on the database created in the postgres. The app was created in Django and JS with many different technics applied: AJAX, jQuery and JsonRequest in practice submit action via JavaScript to Django, contact form with emailing to users with admin status (SMTP method), custom user model and login by email not my username, activation user profile via personal unique link send by email to a new user (SMTP method), custom delete method preventing deletion of the last admin, set of functionalities as 'forgot your password', 'set new password' and following, aggregate and annotate methods in practice, creating forms, models and views (generic and straight classic views and generic forms with applied widgets), custom password unique validation methods.
 
 ## Screenshots
 
@@ -66,5 +62,4 @@ The app is based on the modified Bootstrap's template.
 
 ## Status
 
-The project is _in progress_. The next step in planned development of the application is to create functionality for medical staff to prepare short note related to each appointment, development of test,
-multiply relations between views and urls to improve accessibility of applied functionalities and many others waiting for iplementation :)
+The project is _in progress_. The next step in planned development of the application is to develop JS functionality :)
