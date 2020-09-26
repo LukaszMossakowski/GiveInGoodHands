@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '8@zen#i6d*a^t!^i*90(5*o-8g4ffovy%8j54bkmfbd2drf27q'
+SECRET_KEY = '**********************'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -80,7 +80,7 @@ DATABASES = {
         'NAME': 'charity-donation',
         'HOST': 'localhost',
         'USER': 'postgres',
-        'PASSWORD': '*********'
+        'PASSWORD': '*******'
     }
 }
 
@@ -133,6 +133,6 @@ AUTH_USER_MODEL = 'give_in_good_hands.MyUser'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_HOST_USER = 'mossakowskilukasz@gmail.com'
-EMAIL_HOST_PASSWORD = '*********'
+EMAIL_HOST_PASSWORD = '********'
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
