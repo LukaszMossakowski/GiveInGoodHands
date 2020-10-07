@@ -28,13 +28,13 @@ button.addEventListener("click", function () {
     list_of_errors = []
 
     if (list_of_errors.length > 0) {
-        alert("Wystąpił błąd!")
+        alert("Error occured!")
         return false
     }
     else {
         let part1 = document.createElement("ul");
-        part1.innerHTML = `<li><span class="icon icon-bag"></span><span class="summary--text">${quantity.value} worki</span></li>
-<li><span class="icon icon-hand"></span><span class="summary--text">Dla fundacji: ${institution.textContent}</span></li>`;
+        part1.innerHTML = `<li><span class="icon icon-bag"></span><span class="summary--text">${quantity.value} bags</span></li>
+<li><span class="icon icon-hand"></span><span class="summary--text">For foundation: ${institution.textContent}</span></li>`;
         summary1.appendChild(part1);
 
         let part2 = document.createElement("ul");
