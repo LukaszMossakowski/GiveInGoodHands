@@ -16,7 +16,7 @@ The app was created as my one of many individual projects prepared as part of Po
 
 The 'Give in good hands' application allows:
 
-- new user [registration using email as username] (by customizing user model) - [link to screenshot](./img_readme/5_register_form.png), app verifies whether email is unique, new user is not active, after registration new user gets email message with unique link to activate user account (SMTP method via gmail) - [link to screenshot](./img_readme/10_registration_email_with_activation_link.png)
+- registration new userusing using email as username (by customizing user model) - [link to screenshot](./img_readme/5_register_form.png), app verifies whether email is unique, new user is not active, after registration new user gets email message with unique link to activate user account (SMTP method via gmail) - [link to screenshot](./img_readme/10_registration_email_with_activation_link.png)
 - counters of donations and number of supported institutions created with aggregate and annotate methods - [link to screenshot](./img_readme/2_aggregate_annotate.png)
 - listing of registered institution by type (choice method): foundation and others, with details and pagination - [link to screenshot](./img_readme/3_pagination.png)
 - a contact form that allows any guest to send e-mails to users with administrator status (SMTP method via gmail) - [link to screenshot](./img_readme/4_contact_form.png)
